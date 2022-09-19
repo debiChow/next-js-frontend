@@ -2,7 +2,7 @@ import * as React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import styles from "../../../styles/header.module.css";
-import logo from "../../../public/logo.png";
+import logo from "../../../public/Logoheader.png";
 import vector from "../../../public/Vector.png";
 import vectorDown from "../../../public/Vectorvector1.png";
 import Image from "next/image";
@@ -24,8 +24,7 @@ const Header = () => {
             <Image
               src={logo}
               alt={data.main_header_data.alt}
-              height={90}
-              width={90}
+
             />
           </Navbar.Brand>
         </div>
