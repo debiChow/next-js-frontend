@@ -8,9 +8,9 @@ import Image from "next/image";
 
 const TopHeader = () => {
   return (
-    <div class={styles.background}>
-      <div class="d-flex justify-content-around justify-content-md-between px-3 px-lg-5 px-md-5 px-sm-3 ">
-        <div class="d-none d-sm-flex align-items-center" tabIndex={0}>
+    <div className={styles.background}>
+      <div className="d-flex justify-content-around justify-content-md-between px-3 px-lg-5 px-md-5 px-sm-3 ">
+        <div className="d-none d-sm-flex align-items-center" tabIndex={0}>
         <Image
               src={iconglobe}
               alt={"location"}
@@ -24,7 +24,7 @@ const TopHeader = () => {
           {headerData.mini_header_data.banner_data}
         </div>
         <div className="d-none d-sm-flex " >
-          <div class="px-3 d-flex align-items-end" tabIndex={0}>
+          <div className="px-3 d-flex align-items-end" tabIndex={0}>
           <Image
               src={disticonmap}
               alt={headerData.mini_header_data.distributor_text}
