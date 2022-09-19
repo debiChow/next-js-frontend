@@ -24,9 +24,9 @@ const ShopCard = () => {
 
   return (
     <>
-      <div>
-        <div class="row">
-          <div class="col-6 col-md-4">
+      <div className={styles.shopcardWrapper}>
+        <div className="row">
+          <div className="col-sm">
             {data.shop_panel_data.map((item, index) => {
               return (
                 <button
@@ -45,8 +45,8 @@ const ShopCard = () => {
               );
             })}
           </div>
-          <div class="col-6 col-md-4">
-            <div className="text-xl ... ">
+          <div className="col-sm">
+            <div className="text-xl font-normal ... ">
               {selectedLevel &&
                 selectedLevel.length !== 0 &&
                 selectedLevel.map((item, index) => {
@@ -58,13 +58,13 @@ const ShopCard = () => {
                 })}
             </div>
           </div>
-          <div class="col-6 col-md-4">
-            <Image src={shop} height={450} width={450} />
+          <div className="col-sm">
+            <Image src={shop} />
           </div>
         </div>
         <div className={styles.allproductWrapper}>
-          shop all Products
-          <span >
+          <span tabIndex={0}>
+            shop all Product
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"

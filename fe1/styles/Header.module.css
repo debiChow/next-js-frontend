@@ -1,7 +1,4 @@
 
-.navbar{
-    height: 7rem;
-}
 .logo{
     font-size: 45px;
     font-weight: bold;
@@ -18,7 +15,17 @@
 .linkNav{
     color:#00A862;
 }
-.navbar-toggler{
+.navbar{
+    background-color: var(--bs-white) !important;
+}
+.dropdownWrapper{
+    width: 77rem;
     position: absolute;
-    left: -39px;
+
+    top: 5rem !important;
+    border: 0;
+}
+.navItemText{
+    font-weight: 700;
+    color:var(--bs-green);
 }

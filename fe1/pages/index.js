@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import styles from '../styles/home.module.css'
 import Header from '../src/component/header/Header'
 
