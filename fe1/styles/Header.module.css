@@ -27,5 +27,9 @@
 }
 .navItemText{
     font-weight: 700;
+    font-size: 18px;
     color:var(--bs-green);
+}
+.searchWrapper{
+    margin-left: 290px;
 }

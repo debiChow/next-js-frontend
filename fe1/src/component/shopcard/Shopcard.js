@@ -33,8 +33,8 @@ const ShopCard = () => {
                   key={index}
                   className={
                     selectedOption === item.filed
-                      ? "block p-4 pl-16 text-5xl font-bold  text-emerald-900 "
-                      : "block p-4 pl-16 text-5xl font-bold text-green-600"
+                      ? "block p-4 pl-16 text-4xl font-bold  text-emerald-900 "
+                      : "block p-4 pl-16 text-4xl font-bold text-green-600"
                   }
                   onClick={(ev) => handleClick(ev, index)}
                 >
